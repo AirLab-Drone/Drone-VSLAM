@@ -20,7 +20,7 @@ launch
 
 | **參數名稱**     | **default value** | **description**                       |
 |--------------|-------------------|---------------------------------------|
-| rtabmap_args |                   | --delete_db_on_start/-d 刪除原本地圖        |
+| rtabmap_args |                   | If --delete_db_on_start/-d: 刪除原本地圖        |
 | mode         |                   | If true: Launch in localization mode. |
 | rtabmap_viz  | false             | Launch RTAB-Map UI (optional).        |
 | rviz         | true              | Launch RVIZ (optional).               |

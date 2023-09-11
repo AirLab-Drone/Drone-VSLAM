@@ -17,7 +17,7 @@ launch
 ```
 
 ## paramters
-rtabmap_args,   default_value='',       description='Can be used to pass RTAB-Map\'s parameters or other flags like --udebug and --delete_db_on_start/-d' 
-mode            default_value='true',   description='Launch in localization mode.' 
-rtabmap_viz,    default_value='false',  description='Launch RTAB-Map UI (optional).' 
-rviz,           default_value='true',   description='Launch RVIZ (optional).' 
+rtabmap_args,   default_value='',       description='Can be used to pass RTAB-Map\'s parameters or other flags like --udebug and --delete_db_on_start/-d'. 
+mode            default_value='true',   description='Launch in localization mode.'. 
+rtabmap_viz,    default_value='false',  description='Launch RTAB-Map UI (optional).'. 
+rviz,           default_value='true',   description='Launch RVIZ (optional).'. 

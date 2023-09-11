@@ -25,4 +25,9 @@ launch
 | rtabmap_viz  | false             | Launch RTAB-Map UI (optional).        |
 | rviz         | true              | Launch RVIZ (optional).               |
 
+## usage
+
+```
+ros2 launch drone_vslam drone_mapping.launch.py rtabmap_args:="-d"
+```
 

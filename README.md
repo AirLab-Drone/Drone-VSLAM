@@ -14,6 +14,12 @@ launch
     ├──drone_localization.launch.py     (同時啟動realsene D435i & RTAB-Map 定位模式)
     │  
     ├──test.launch.py                   (just for test the launch file)
+    │  
+    config
+    │
+    ├──defult.rviz                      (rviz2's config)
+    │
+    ├──rtab.rviz                        (rviz2  in rtab config)
 ```
 
 ## paramters

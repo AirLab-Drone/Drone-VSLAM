@@ -16,10 +16,10 @@ launch
     ├──test.launch.py                   (just for test the launch file)
     │  
     config
-    │
-    ├──defult.rviz                      (rviz2's config)
-    │
-    ├──rtab.rviz                        (rviz2  in rtab config)
+        │
+        ├──defult.rviz                      (rviz2's config)
+        │
+        ├──rtab.rviz                        (rviz2  in rtab config)
 ```
 
 ## paramters

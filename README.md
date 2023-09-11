@@ -7,9 +7,7 @@ launch
     │  
     ├──realsenseD435i.launch.py         (啟動realsense D435i Node)
     │  
-    ├──rtabmap_mapping.launch.py        (啟動RTAB-Map 建圖模式)
-    │  
-    ├──rtabmap_localization.launch.py   (啟動RTAB-Map 定位模式)
+    ├──rtabmap.launch.py                (啟動RTAB-Map)
     │  
     ├──drone_mapping.launch.py          (同時啟動realsene D435i & RTAB-Map 建圖模式)
     │  

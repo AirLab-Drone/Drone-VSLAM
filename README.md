@@ -17,7 +17,15 @@ launch
 ```
 
 ## paramters
-rtabmap_args,   default_value='',       description='Can be used to pass RTAB-Map\'s parameters or other flags like --udebug and --delete_db_on_start/-d'. 
-mode            default_value='true',   description='Launch in localization mode.'. 
-rtabmap_viz,    default_value='false',  description='Launch RTAB-Map UI (optional).'. 
-rviz,           default_value='true',   description='Launch RVIZ (optional).'. 
+ **參數名稱**     | **default value** | **description**                       | **** | **** | **** | **** | **** | **** | **** 
+--------------|-------------------|---------------------------------------|------|------|------|------|------|------|------
+ rtabmap_args |                   | --delete_db_on_start/-d 刪除原本地圖        |      |      |      |      |      |      |      
+ mode         |                   | If true: Launch in localization mode. |      |      |      |      |      |      |      
+ rtabmap_viz  | false             | Launch RTAB-Map UI (optional).        |      |      |      |      |      |      |      
+ rviz         | true              | Launch RVIZ (optional).               |      |      |      |      |      |      |      
+              |                   |                                       |      |      |      |      |      |      |      
+              |                   |                                       |      |      |      |      |      |      |      
+              |                   |                                       |      |      |      |      |      |      |      
+              |                   |                                       |      |      |      |      |      |      |      
+              |                   |                                       |      |      |      |      |      |      |      
+

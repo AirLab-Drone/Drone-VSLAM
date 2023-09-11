@@ -2,8 +2,7 @@
 #   A realsense D435i
 #   Install realsense2 ros2 package (ros-$ROS_DISTRO-realsense2-camera)
 #
-#   $ ros2 launch drone_vslam test.launch.py
-
+#   RTAB-Map in mapping mode
 
 import os
 
@@ -124,7 +123,7 @@ def generate_launch_description():
         DeclareLaunchArgument('approx_sync_max_interval', default_value='0.0', 
                               description='(sec) 0 means infinite interval duration (used with approx_sync=true)'),
         
-        DeclareLaunchArgument('database_path', default_value='~/ros2_ws/src/drone_vslam/launch/map_database/rtabmap.db',  
+        DeclareLaunchArgument('database_path', default_value='~/ros2_ws/src/drone_vslam/map_database/rtabmap.db',  
                               description='Where is the map saved/loaded.'),
         
         DeclareLaunchArgument('localization', default_value='true', 

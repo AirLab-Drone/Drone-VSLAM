@@ -11,33 +11,22 @@ def generate_launch_description():
     RealsenseD435iLaunchFile = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory('realsense2_camera'),
-                'launch/rs_launch.py'
+                get_package_share_directory('drone_vslam'),
+                'launch/realsenseD435i.launch.py'
             )
-        ),
-        launch_arguments = {
-            'enable_gyro': 'True',
-            'enable_accel': 'True',
-            'unite_imu_method': '1',
-            'enable_infra1': 'True',
-            'enable_infra2': 'True',
-            'enable_sync': 'True',
-            'depth_module.emitter_enabled': '0'
-                            }.items()
+        )
     )
 
     # RTAB-Map launch
     RtabMapLaunchFile = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory('rtabmap_examples'),
-                'launch/realsense_d435i_infra.launch.py'
+                get_package_share_directory('drone_vslam'),
+                'launch/rtabmap_mapping.launch.py'
             )
         )
     )
     
-
-
     ld.add_action(RealsenseD435iLaunchFile)
     ld.add_action(RtabMapLaunchFile)
 

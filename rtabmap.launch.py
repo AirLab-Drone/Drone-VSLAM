@@ -112,7 +112,7 @@ def launch_setup(context, *args, **kwargs):
 def generate_launch_description():
 
     config_rviz = os.path.join(
-        get_package_share_directory('drone_vslam'), 'launch', 'config', 'rtab.rviz')   
+        get_package_share_directory('drone_vslam'), 'config', 'rtab.rviz')   
 
     return LaunchDescription([
 

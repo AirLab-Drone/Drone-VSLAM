@@ -1,6 +1,6 @@
 ### Realsense D435i VSLAM in RTAB-Map  ###
 
-this is old version, please see [drone-vslam]([http://dillinger.io/](https://github.com/AirLab-Drone/drone_simulation/tree/main/drone_vslam) "link")
+this is old version, please see [drone-vslam](http://dillinger.io/](https://github.com/AirLab-Drone/drone_simulation/tree/main/drone_vslam "link")
 
 ## structure
 ```
